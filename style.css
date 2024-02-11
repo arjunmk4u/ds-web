@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(6, 112, 112, 0.742);
+}
+
+.container{
+    width: 100%;
+    background-color: rgb(101, 101, 86);
+    padding: 20px;
+    position: absolute;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container a{
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left-side{
+    width: 500px;
+}
+.left-side h2{
+    margin: 0%;
+    font-size: 40px;
+    color: white;
+}
+
+.left-side p{
+    margin: 0%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 18px;
+    line-height: 28px;
+}
+.left-side button{
+    color: rgb(78, 75, 75);
+    background-color: white;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 6px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.right-side{
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 0;
+    box-shadow: 0 5px 6px rgba(0, 0, 0,.25);
+}
+
+.right-side h2{
+    font-size: 20px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.input-group{
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.input-group label{
+    position: absolute;
+    top: -20px;
+    margin-left: 5px;
+}
+
+.input-group input, textarea{
+    /* border: none; */
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 7px;
+    outline: none;
+    /* border-bottom: 1px solid black; */
+}
+
+.input-group input::focus ~ label{
+    display: none;
+}

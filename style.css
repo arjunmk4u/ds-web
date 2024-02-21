@@ -259,7 +259,7 @@ body{
 
 @media only screen and (max-width: 450px) {
     body{
-        width: 100%;
+        /* width: 100%; */
         margin: 0%;
         padding: 0%;
         background-color: rgba(6, 112, 112, 0.742);
@@ -272,7 +272,199 @@ body{
         background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.758)),linear-gradient(180deg, rgba(0, 0, 0, 0.811), rgba(0, 0, 0, 0)), url("./src/code\ bro\ bg.png");
         background-size: cover;
         width: 100%;
-        height: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px;
    
+    }
+    .center{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 100px;
+    }
+    .center h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 60px;
+    }
+    .center h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .center button{
+        width: 130px;
+        color: rgb(78, 75, 75);
+        background-color: white;
+        border: none;
+        padding: 6px 25px;
+        border-radius: 6px;
+        margin-top: 6px;
+        cursor: pointer;
+    }
+    
+    .center span{
+        text-transform: uppercase;
+        color: rgb(224, 0, 0);
+    }
+    .about{
+        background-color: rgb(36, 36, 36);
+        color: white;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column;
+        /* justify-content: start; */
+    }
+    .card-container{
+        width: 50%;
+        /* height: 100px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .card{
+        background-color: rgb(69, 69, 69);
+        padding: 20px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: center; */
+        border-radius: 10px;
+        width: 300px;
+        height: 350px;
+        box-shadow: 0 5px 6px rgba(0, 0, 0,.25);
+    
+    }
+    .card-image img{
+        display: none;
+        /* position: relative; */
+        /* height: 50%; */
+        /* width: 50%; */
+        /* top: 50px; */
+        /* padding: 20px 0px; */
+        
+    }
+    
+    .card button{
+        font-weight: bold;
+        /* margin-left: 48px; */
+        color: rgb(255, 255, 255);
+        background-color: rgba(93, 93, 93, 0.742);
+        border: none;
+        padding: 12px 50px;
+        border-radius: 6px;
+        margin-top: 6px;
+        cursor: pointer;
+        
+        
+    }
+    .content{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .left-side{
+        width: 400px;
+    }
+    .left-side h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0%;
+        font-size: 40px;
+        color: white;
+    }
+    
+    .left-side p{
+        margin: 0%;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: white;
+        margin-top: 18px;
+        line-height: 28px;
+    }
+    .left-side button{
+        color: rgb(78, 75, 75);
+        background-color: white;
+        border: none;
+        padding: 12px 50px;
+        border-radius: 6px;
+        margin-top: 6px;
+        cursor: pointer;
+    }
+    
+    .right-side{
+        width: 400px;
+        background-color: white;
+        border-radius: 15px;
+        padding: 40px 0;
+        box-shadow: 0 5px 6px rgba(0, 0, 0,.25);
+    }
+    
+    .right-side h2{
+        font-size: 20px;
+        width: 300px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    
+    .input-group{
+        width: 300px;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .input-group label{
+        position: absolute;
+        top: -20px;
+        margin-left: 5px;
+    }
+    
+    .input-group input, textarea{
+        /* border: none; */
+        border-radius: 5px;
+        margin-top: 5px;
+        padding: 7px;
+        outline: none;
+        /* border-bottom: 1px solid black; */
+    }
+    
+    .input-group input::focus ~ label{
+        display: none;
+    }
+    
+    .submit input{
+        font-weight: bold;
+        margin-left: 48px;
+        color: rgb(255, 255, 255);
+        background-color: rgba(6, 112, 112, 0.742);
+        border: none;
+        padding: 12px 50px;
+        border-radius: 6px;
+        margin-top: 6px;
+        cursor: pointer;
     }
 }

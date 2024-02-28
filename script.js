@@ -16,3 +16,10 @@ function reveal() {
   
   window.addEventListener("scroll", reveal);
   
+function active_p(){
+  let desc = document.querySelector(".left-side p")
+  // desc.classList.add("active");
+  desc.style.display = "block";
+  // console.log("Click");
+
+}

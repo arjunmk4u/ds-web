@@ -119,6 +119,7 @@ body{
 }
 
 .left-side p{
+    display: none;
     margin: 0%;
     font-size: 14px;
     letter-spacing: 1px;
@@ -126,6 +127,7 @@ body{
     margin-top: 18px;
     line-height: 28px;
 }
+
 .left-side button{
     color: rgb(78, 75, 75);
     background-color: white;

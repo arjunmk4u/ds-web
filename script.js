@@ -23,3 +23,17 @@ function active_p(){
   // console.log("Click");
 
 }
+
+function sendEmail(){
+  Email.send({
+  SecureToken: "536a98bd-185b-450a-9639-5248587ebd19",
+  To : "arjunmk4u@nirmalacollege.ac.in",
+  From : document.getElementById("email").value,
+  Subject : "New Enquiry",
+  Body : "Name: " + document.getElementById("name").value
+    +"<br> Email: " + document.getElementById("email").value 
+    +"<br> Message: " + document.getElementById("enquiry").value
+}).then(
+  message => alert(message)
+);
+}

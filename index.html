@@ -92,17 +92,17 @@
           <!-- right side  -->
           <div class="right-side">
             <h2>ENQUIRE</h2>
-            <form>
+            <form onsubmit="sendEmail(); reset(); return false;">
               <div class="input-group">
-                <input type="text" />
+                <input id="name" type="text" />
                 <label for="input"> Name</label>
               </div>
               <div class="input-group">
-                <input type="email" />
+                <input id="email" type="email" />
                 <label for="input"> E-mail</label>
               </div>
               <div class="input-group">
-                <textarea name="Message" cols="30" rows="10"> </textarea>
+                <textarea id="enquiry" name="Message" cols="30" rows="10"> </textarea>
                 <label for="Message">Your Message</label>
               </div>
               <div class="submit">
@@ -138,6 +138,8 @@
       <h3><i class="fa-regular fa-copyright"></i>Developed by Data Science team nirmala</h3>
       <h3>All Rights Reserved</h3>
     </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <script src="./script.js"></script>
   </body>

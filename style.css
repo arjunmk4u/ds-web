@@ -15,6 +15,7 @@ body{
 
 }
 
+/* Nav bar  */
 .container{
     position: absolute;
     width: 100%;
@@ -35,6 +36,9 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
+/* nav bar end  */
+
+/* home page  */
 .home-page{
     /* top: 0; */
     /* position: relative; */
@@ -107,7 +111,9 @@ body{
     text-transform: uppercase;
     color: rgb(224, 0, 0);
 }
+/* home page end  */
 
+/* Enquiry section  */
 .content{
     width: 100%;
     height: 100vh;
@@ -197,7 +203,9 @@ body{
     margin-top: 6px;
     cursor: pointer;
 }
+/* enquiry section end  */
 
+/* About section  */
 .about{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.758)),linear-gradient(180deg, rgba(0, 0, 0, 0.811), rgba(0, 0, 0, 0)),url("./src/ai.jpg");
     color: white;
@@ -262,7 +270,9 @@ body{
     
     
 }
+/* about section end  */
 
+/* link section  */
 .content-box{
     background: rgb(26, 26, 26);
     width: 100%;
@@ -295,6 +305,7 @@ body{
     color: white;
     font-size: 34px;
 }
+/* link section end  */
 
 .reveal{
     position: relative;
@@ -338,7 +349,7 @@ footer{
 }
 
 
-
+/* responsive code  */
 @media only screen and (max-width: 720px) {
     body{
         /* width: 100%; */

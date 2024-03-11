@@ -1,3 +1,7 @@
+const video = document.getElementById('vid');
+const mutebtn = document.querySelector('.audio-icon');
+video.volume = 0;
+
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
   
@@ -37,3 +41,11 @@ function sendEmail(){
   message => alert(message)
 );
 }
+
+mutebtn.addEventListener('mouseover', () => {
+  video.volume = 1;
+})
+
+mutebtn.addEventListener('mouseout', () => {
+  video.volume = 0;
+})

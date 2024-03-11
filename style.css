@@ -1,5 +1,5 @@
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
@@ -331,8 +331,15 @@ body{
 
 .video video{
     width: 600px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
+
+.video h1{
+    color: white;
+    padding: 10px 5px;
+}
+
+/* iv video end  */
 
 .reveal{
     position: relative;

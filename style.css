@@ -609,6 +609,38 @@ footer{
         font-size: 15px;
     }
 
+    .iv-content{
+        background-color: rgb(33, 33, 33);
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .wrapper{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 8 0%;
+    }
+    
+    .audio-icon{
+        color: rgb(46, 46, 46);
+        font-size: 6rem;
+        padding: 0 100px;
+        cursor: url('./src/volume-high-solid (1).svg'), auto;
+    }
+    
+    .video video{
+        width: 350px;
+        border-radius: 8px;
+    }
+    
+    .video h1{
+        font-size: 1rem;
+        color: white;
+        padding: 10px 5px;
+    }
 
     footer{
         font-size: 8px;

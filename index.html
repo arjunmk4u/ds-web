@@ -1,168 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Data Science</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  </head>
 
-  <body>
-    <!-- Home page  -->
-    <section id="Home">
-      <div class="container">
-        <a href="./src/Artboard 1.png">DS</a>
-        <nav>
-          <a href="#Home">Home</a>
-          <a href="#About">About</a>
-          <a href="#Contact">Contact</a>
-        </nav>
-      </div>
-      <div class="home-page">
-        <div class="center">
-          <h1 id="text">CODE SPEAR</h1>
-          <h2>Department of <span>&nbsp;Data Science</span></h2>
-          <button onclick="location.href='#About';">Explore More</button>
-        </div>
-      </div>
-    </section>
-    <!-- Home page end  -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Science</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
 
-    <!-- About page  -->
-    <section id="About">
-      <div class="about">
-        <h2>LEARN MORE</h2>
-        <div class="card-container">
-          <div class="card reveal">
-            <div class="card-title">
-              <h3>About Course</h3>
-            </div>
-            <div class="card-image">
-              <img src="./src/Data science banner.png" alt="" />
-            </div>
-            <div class="card-content">
-              <p>
-                Data science is the study of data to extract meaningful insights
-                for business. It is a multidisciplinary approach that combines
-                principles and practices from the fields of mathematics,
-                statistics, artificial intelligence, and computer engineering to
-                analyze large amounts of data.
-              </p>
-            </div>
-            <button
-              onclick="location.href='https://en.wikipedia.org/wiki/Data_science';">
-              Know more
-            </button>
-          </div>
-          <div class="card reveal">
-            <div class="card-title">
-              <h3>About College</h3>
-            </div>
-            <div class="card-image">
-              <img src="./src/Nirmala Banner.png" alt="" />
-            </div>
-            <div class="card-content">
-              <p>
-                Nirmala College is a first grade arts and science college in
-                Muvattupuzha, Kerala, India run by the Syro-Malabar Catholic
-                Church. The college admits undergraduates and post-graduates and
-                offers degrees in the liberal arts, sciences and commerce.
-              </p>
-            </div>
-            <button onclick="location.href='https://nirmalacollege.ac.in';">
-              Visit site
-            </button>
-          </div>
-        </div>
+<body>
+  <!-- Home page  -->
+  <section id="Home">
+    <div class="container">
+      <a href="./src/Artboard 1.png">DS</a>
+      <nav>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </div>
+    <div class="home-page">
+      <div class="center">
+        <h1 id="text">CODE SPEAR</h1>
+        <h2>Department of <span>&nbsp;Data Science</span></h2>
+        <button onclick="location.href='#About';">Explore More</button>
       </div>
-    </section>
-    <!-- About page end  -->
+    </div>
+  </section>
+  <!-- Home page end  -->
 
-    <!-- iv video  -->
-    <section id="iv">
-      <div class="iv-content">
-        <div class="wrapper reveal">
-          <div class="video">
-            <h1>A visit to Cyber Park Kozhikode</h1>
-            <video id="vid" src="/src/Data Science IV Highlights_1.mp4" autoplay loop></video>
+  <!-- About page  -->
+  <section id="About">
+    <div class="about">
+      <h2>LEARN MORE</h2>
+      <div class="card-container">
+        <div class="card reveal">
+          <div class="card-title">
+            <h3>About Course</h3>
           </div>
-          <div class="audio-icon">
-            <i class="fa-solid fa-music"></i>
+          <div class="card-image">
+            <img src="./src/Data science banner.png" alt="" />
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- iv video end  -->
-
-    <!-- Enquiry page  -->
-    <section id="Contact">
-      <main>
-        <div class="content reveal">
-          <!-- left side  -->
-          <div class="left-side">
-            <h2>THE FUTURE IS DATA</h2>
+          <div class="card-content">
             <p>
-              Send an enquiry message to us to know more about course, college and other stuffs.
+              Data science is the study of data to extract meaningful insights
+              for business. It is a multidisciplinary approach that combines
+              principles and practices from the fields of mathematics,
+              statistics, artificial intelligence, and computer engineering to
+              analyze large amounts of data.
             </p>
-            <button onclick="active_p()">Need help?</button>
           </div>
-          <!-- right side  -->
-          <div class="right-side">
-            <h2>ENQUIRE</h2>
-            <form onsubmit="sendEmail(); reset(); return false;">
-              <div class="input-group">
-                <input id="name" type="text" />
-                <label for="input"> Name</label>
-              </div>
-              <div class="input-group">
-                <input id="email" type="email" />
-                <label for="input"> E-mail</label>
-              </div>
-              <div class="input-group">
-                <textarea id="enquiry" name="Message" cols="30" rows="10"> </textarea>
-                <label for="Message">Your Message</label>
-              </div>
-              <div class="submit">
-                <input type="submit" class="submit-button" />
-              </div>
-            </form>
+          <button onclick="location.href='https://en.wikipedia.org/wiki/Data_science';">
+            Know more
+          </button>
+        </div>
+        <div class="card reveal">
+          <div class="card-title">
+            <h3>About College</h3>
           </div>
-        </div>
-      </main>
-    </section>
-    <!-- Enquiry page end  -->
-
-    <!-- links section  -->
-    <section id="more">
-      <div class="content-box">
-        <div class="link-one">
-          <i class="fa-solid fa-at"></i>
-          <a href="">Mail Us</i></a>
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
-        </div>
-        <div class="link-two">
-          <i class="fa-brands fa-instagram"></i>
-          <a href="https://www.instagram.com/deee.yesss/">Follow us</a>
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
-        </div>
-        <div class="link-three">
-          <i class="fa-solid fa-location-dot"></i>
-          <a href="https://maps.app.goo.gl/L1sC8F8xbEgfDgD9A">View us on Map</a>
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <div class="card-image">
+            <img src="./src/Nirmala Banner.png" alt="" />
+          </div>
+          <div class="card-content">
+            <p>
+              Nirmala College is a first grade arts and science college in
+              Muvattupuzha, Kerala, India run by the Syro-Malabar Catholic
+              Church. The college admits undergraduates and post-graduates and
+              offers degrees in the liberal arts, sciences and commerce.
+            </p>
+          </div>
+          <button onclick="location.href='https://nirmalacollege.ac.in';">
+            Visit site
+          </button>
         </div>
       </div>
-    </section>
-    <!-- link secton end -->
+    </div>
+  </section>
+  <!-- About page end  -->
 
-    <footer>
-      <h3>CODE SPEAR</h3>
-      <h3><i class="fa-regular fa-copyright"></i>Developed by Data Science team nirmala</h3>
-      <h3>All Rights Reserved</h3>
-    </footer>
+  <!-- iv video  -->
+  <section id="iv">
+    <div class="iv-content">
+      <div class="wrapper reveal">
+        <div class="video">
+          <h1>A visit to Cyber Park Kozhikode</h1>
+          <video id="vid" src="/src/Data Science IV Highlights_1.mp4" autoplay loop></video>
+        </div>
+        <div class="audio-icon">
+          <i class="fa-solid fa-music"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- iv video end  -->
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <!-- Enquiry page  -->
+  <section id="Contact">
+    <main>
+      <div class="content reveal">
+        <!-- left side  -->
+        <div class="left-side">
+          <h2>THE FUTURE IS DATA</h2>
+          <p>
+            Send an enquiry message to us to know more about course, college and other stuffs.
+          </p>
+          <button onclick="active_p()">Need help?</button>
+        </div>
+        <!-- right side  -->
+        <div class="right-side">
+          <h2>ENQUIRE</h2>
+          <form onsubmit="sendEmail(); reset(); return false;">
+            <div class="input-group">
+              <input id="name" type="text" />
+              <label for="input"> Name</label>
+            </div>
+            <div class="input-group">
+              <input id="email" type="email" />
+              <label for="input"> E-mail</label>
+            </div>
+            <div class="input-group">
+              <textarea id="enquiry" name="Message" cols="30" rows="10"> </textarea>
+              <label for="Message">Your Message</label>
+            </div>
+            <div class="submit">
+              <input type="submit" class="submit-button" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </section>
+  <!-- Enquiry page end  -->
 
-    <script src="./script.js"></script>
-  </body>
+  <!-- links section  -->
+  <section id="more">
+    <div class="content-box">
+      <div class="link-one">
+        <i class="fa-solid fa-at"></i>
+        <a href="">Mail Us</i></a>
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </div>
+      <div class="link-two">
+        <i class="fa-brands fa-instagram"></i>
+        <a href="https://www.instagram.com/deee.yesss/">Follow us</a>
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </div>
+      <div class="link-three">
+        <i class="fa-solid fa-location-dot"></i>
+        <a href="https://maps.app.goo.gl/L1sC8F8xbEgfDgD9A">View us on Map</a>
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </div>
+    </div>
+  </section>
+  <!-- link secton end -->
+
+  <footer>
+    <h3>CODE SPEAR</h3>
+    <h3><i class="fa-regular fa-copyright"></i>Developed by Data Science team nirmala</h3>
+    <h3>All Rights Reserved</h3>
+  </footer>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script src="./script.js"></script>
+</body>
+
 </html>
